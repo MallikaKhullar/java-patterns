@@ -9,6 +9,9 @@ class BasicSingleton {
     }
 }
 
+/**
+ * Same Singleton instance to be returned every time
+ */
 public class TestBasicSingleton {
     public static void main(String[] args) {
         BasicSingleton singleton =  BasicSingleton.getInstance();
